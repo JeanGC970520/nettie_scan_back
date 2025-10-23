@@ -1,0 +1,10 @@
+[project]
+name = "nettie-scan-back"
+version = "0.1.0"
+description = "NettieScan is an application to scann handwritten into a image"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.119.1",
+    "pytest>=8.4.2",
+]
